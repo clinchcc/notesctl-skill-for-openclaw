@@ -24,6 +24,8 @@ It was written as a replacement for OpenClaw's original Apple Notes skill: the o
 - `python3`, `osascript`
 - `memo` CLI (used by the scripts)
 
+Dependencies: the same as OpenClaw’s built-in **apple-notes** skill (memo). If you already use that skill, you likely have it installed; otherwise OpenClaw will prompt you to install it when needed.
+
 ## Install / Use
 
 1) Clone/download this repository.
@@ -59,6 +61,8 @@ It was written as a replacement for OpenClaw's original Apple Notes skill: the o
 - macOS
 - `python3`, `osascript`
 - `memo` 命令行工具（脚本依赖）
+
+补充：依赖与 OpenClaw 自带的 **apple-notes** skill 相同（memo）。如果你已经用过自带 skill 通常已安装；否则在需要时 OpenClaw 会提示安装。
 
 ### 安装 / 使用
 
