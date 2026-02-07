@@ -9,7 +9,6 @@ It was written as a replacement for OpenClaw's original Apple Notes skill: the o
 ## Contents
 
 - `skill/notesctl/` — skill source (SKILL.md + scripts + README)
-- `notesctl.skill` — packaged skill file for import/sharing
 
 ## What it can do
 
@@ -27,9 +26,9 @@ It was written as a replacement for OpenClaw's original Apple Notes skill: the o
 
 ## Install / Use
 
-1) Download `notesctl.skill` from **Releases**.
+1) Clone/download this repository.
 
-2) Import/install the skill in your OpenClaw setup.
+2) Copy `skill/notesctl/` into your OpenClaw skills directory (or package it yourself if your setup requires a `.skill` file).
 
 3) Use it by asking the agent to write/search/export Apple Notes.
 
@@ -44,7 +43,6 @@ It was written as a replacement for OpenClaw's original Apple Notes skill: the o
 ### 内容
 
 - `skill/notesctl/`：skill 源码（SKILL.md + scripts + README）
-- `notesctl.skill`：打包好的 skill 文件，可直接导入/分享
 
 ### 功能
 
@@ -62,8 +60,8 @@ It was written as a replacement for OpenClaw's original Apple Notes skill: the o
 
 ### 安装 / 使用
 
-1）从 **Releases** 下载 `notesctl.skill`。
+1）克隆/下载本仓库。
 
-2）在你的 OpenClaw 环境中导入/安装该 skill。
+2）将 `skill/notesctl/` 复制到你的 OpenClaw skills 目录（如果你的环境需要 `.skill` 文件，可以自行打包生成）。
 
 3）直接对 agent 说你要写/搜/导出 Notes 即可。
