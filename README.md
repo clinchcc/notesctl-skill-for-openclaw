@@ -30,6 +30,8 @@ It was written as a replacement for OpenClaw's original Apple Notes skill: the o
 
 2) Copy `skill/notesctl/` into your OpenClaw skills directory.
 
+   Note: disable OpenClaw's built-in Apple Notes skill to avoid conflicts.
+
 3) Use it by asking the agent to write/search/export Apple Notes.
 
 ---
