@@ -24,13 +24,13 @@ Minimize token usage and avoid fragile quoting by routing Apple Notes operations
 - JSON stdin (recommended):
 
 ```bash
-echo '{"title":"标题","body":"第一行\n第二行","folder":"Notes"}' | {baseDir}/scripts/notes_post.sh
+echo '{"title":"Title","body":"Line 1\nLine 2","folder":"Notes"}' | {baseDir}/scripts/notes_post.sh
 ```
 
 - Direct args:
 
 ```bash
-{baseDir}/scripts/notes_new.sh "标题" $'正文第一行\n正文第二行' "Notes"
+{baseDir}/scripts/notes_new.sh "Title" $'Body line 1\nBody line 2' "Notes"
 ```
 
 ### List/search/export
@@ -43,7 +43,7 @@ echo '{"title":"标题","body":"第一行\n第二行","folder":"Notes"}' | {base
 
 ## Output conventions
 
-- Keep receipts short: `已写入 Notes：<标题>`.
+- Keep receipts short: `Wrote to Notes: <title>`. 
 
 ## Notes on editing
 
