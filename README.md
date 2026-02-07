@@ -62,10 +62,10 @@ It was written as a replacement for OpenClaw's original Apple Notes skill: the o
 
 ### 安装 / 使用
 
-1）克隆/下载本仓库。
+- 克隆/下载本仓库。
 
-2) 拷贝 `skill/notesctl/` 到OpenClaw skills目录.
+- 拷贝 `skill/notesctl/` 到OpenClaw skills目录.
 
-   主要: 要停用自带的Apple Notes skill 避免冲突.
+- 注意: 要停用自带的Apple Notes skill 避免冲突.
 
-3）直接对 agent 说你要写/搜/导出 Notes 即可。
+- 直接对 agent 说你要写/搜/导出 Notes 即可。
