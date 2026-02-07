@@ -4,6 +4,8 @@ A small, deterministic Apple Notes helper skill for OpenClaw.
 
 It wraps Apple Notes operations in scripts so the agent can reliably create/search/export notes without fragile quoting or UI automation.
 
+Why: this was built to replace the original OpenClaw Apple Notes skill, which can occasionally create a note titled "New Notes" and can be token-expensive; notesctl keeps the system logic deterministic and minimizes LLM usage (ideally a single call to produce the final output).
+
 ## Requirements (macOS)
 
 - `python3`
